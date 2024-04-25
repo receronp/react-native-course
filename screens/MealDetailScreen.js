@@ -7,8 +7,8 @@ import MealDetails from "../components/MealDetails";
 import Subtitle from "../components/MealDetail/Subtitle";
 import List from "../components/MealDetail/List";
 import IconButton from "../components/IconButton";
-import { addFavourite, removeFavourite } from "../sore/redux/favourites";
-// import { FavouritesContext } from "../sore/context/favourites-context";
+import { addFavourite, removeFavourite } from "../store/redux/favourites";
+// import { FavouritesContext } from "../store/context/favourites-context";
 
 function MealDetailScreen({ route, navigation }) {
   // const favouriteMealsCtx = useContext(FavouritesContext);

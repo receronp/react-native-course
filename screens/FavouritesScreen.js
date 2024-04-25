@@ -3,7 +3,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 import MealList from "../components/MealList/MealList";
-// import { FavouritesContext } from "../sore/context/favourites-context";
+// import { FavouritesContext } from "../store/context/favourites-context";
 import { MEALS } from "../data/dummy-data";
 
 const FavouritesScreen = () => {

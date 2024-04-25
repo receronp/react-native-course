@@ -10,8 +10,8 @@ import CategoriesScreen from "./screens/CategoriesScreen";
 import MealsOverviewScreen from "./screens/MealsOverviewScreen";
 import MealDetailScreen from "./screens/MealDetailScreen";
 import FavouritesScreen from "./screens/FavouritesScreen";
-import { store } from "./sore/redux/store";
-// import FavouritesContextProvider from "./sore/context/favourites-context";
+import { store } from "./store/redux/store";
+// import FavouritesContextProvider from "./store/context/favourites-context";
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
